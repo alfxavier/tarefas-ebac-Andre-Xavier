@@ -1,0 +1,34 @@
+procedimento acordar()
+    // 1. Abrir os olhos
+    escreva("Abrindo os olhos...")
+    
+    // 2. Se espreguiçar
+    escreva("Se espreguiçando...")
+
+    // 3. Desligar o alarme (se houver)
+    se (alarmeTocando()) então
+        escreva("Desligando o alarme...")
+    fimSe
+
+    // 4. Sentar na cama
+    escreva("Sentando na cama...")
+
+    // 5. Levantar e ir ao banheiro
+    escreva("Levantando da cama...")
+    escreva("Indo ao banheiro...")
+
+    // 6. Lavar o rosto
+    escreva("Lavando o rosto...")
+
+    // 7. Escovar os dentes
+    escreva("Escovando os dentes...")
+
+    // 8. Preparar ou tomar café da manhã
+    escreva("Preparando o café da manhã...")
+    escreva("Tomando o café da manhã...")
+
+    // 9. Se vestir para o dia
+    escreva("Escolhendo a roupa e se vestindo...")
+
+    escreva("Pronto para começar o dia!")
+
